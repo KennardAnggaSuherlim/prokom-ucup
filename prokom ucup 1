@@ -1,0 +1,19 @@
+def hitung_luas(panjang, lebar):
+    luas = panjang *lebar
+    return luas
+
+nilailuas = hitung_luas(4, 12)
+print(nilailuas)
+
+
+
+
+def konfersi_celcius_reamur(celcius):
+    konfersi = 0.8 * celcius
+    return konfersi
+
+nilaikonfersi = konfersi_celcius_reamur(31)
+print("konfersi reamur:", nilaikonfersi)
+
+
+
